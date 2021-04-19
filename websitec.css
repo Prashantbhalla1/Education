@@ -113,29 +113,14 @@ input {
 }
 .cont {
   height: 100vh;
-  animation: sli 20s infinite ease-out;
-  background-image: url("im1.jpg");
+
+ background-image: url("novel-books-775998.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-@keyframes sli {
-  0% {
-    background-image: url("im1.jpg");
-    background-repeat: no-repeat;
-  }
 
-  45% {
-    background-image: url("novel-books-775998.jpg");
-    background-repeat: no-repeat;
-  }
-
-  80% {
-    background-image: url("im4.jpg");
-    background-repeat: no-repeat;
-  }
-}
 .box {
   width: 60%;
   margin: auto;
